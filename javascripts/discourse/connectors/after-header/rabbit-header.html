@@ -1,0 +1,9 @@
+<header id="rabbit-header">
+  {{#each siteSettings.rabbit_banners}}
+    <div class="header-content" data-banner-id="{{@index}}">
+      <a href="{{url}}" class="link-container">
+        <img src="{{image_url}}" alt="{{title}}" class="link-image" />
+      </a>
+    </div>
+  {{/each}}
+</header>

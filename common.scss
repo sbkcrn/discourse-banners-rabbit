@@ -1,0 +1,39 @@
+.link-container {
+  display: block;
+  width: 100%;
+  margin: 1em 0 2em;
+  border-radius: 0.75em;
+  overflow: hidden;
+}
+
+.link-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#rabbit-header {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header-content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  #rabbit-header {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+
+  .header-content {
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+  }
+}

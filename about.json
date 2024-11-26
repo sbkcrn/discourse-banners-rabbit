@@ -1,0 +1,8 @@
+{
+    "name": "Rabbit Header Banners",
+    "about": "A custom banner component for Rabbit's Discourse community.",
+    "version": "0.1",
+    "authors": ["Your Name"],
+    "license": "MIT",
+    "theme_version": 2
+}
