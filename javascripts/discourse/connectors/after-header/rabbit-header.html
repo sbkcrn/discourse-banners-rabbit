@@ -1,9 +1,42 @@
 <header id="rabbit-header">
-  {{#each siteSettings.rabbit_banners}}
-    <div class="header-content" data-banner-id="{{@index}}">
-      <a href="{{url}}" class="link-container">
-        <img src="{{image_url}}" alt="{{title}}" class="link-image" />
-      </a>
-    </div>
-  {{/each}}
+  <div class="header-content" data-banner-id="1">
+    <a href="{{settings.category_from_the_team}}" class="link-container">
+      <img src="{{settings.category_from_the_team_image}}" alt="From the Team" class="link-image" />
+    </a>
+  </div>
+  <div class="header-content" data-banner-id="2">
+    <a href="{{settings.category_all_things_rabbit}}" class="link-container">
+      <img src="{{settings.category_all_things_rabbit_image}}" alt="All Things Rabbit" class="link-image" />
+    </a>
+  </div>
+  <div class="header-content" data-banner-id="3">
+    <a href="{{settings.category_lam_teach_mode_agents}}" class="link-container">
+      <img src="{{settings.category_lam_teach_mode_agents_image}}" alt="LAM, Teach Mode & Agents" class="link-image" />
+    </a>
+  </div>
+  <div class="header-content" data-banner-id="4">
+    <a href="{{settings.category_world_of_ai}}" class="link-container">
+      <img src="{{settings.category_world_of_ai_image}}" alt="The World of AI" class="link-image" />
+    </a>
+  </div>
+  <div class="header-content" data-banner-id="5">
+    <a href="{{settings.category_issues_and_bugs}}" class="link-container">
+      <img src="{{settings.category_issues_and_bugs_image}}" alt="Issues & Bugs" class="link-image" />
+    </a>
+  </div>
+  <div class="header-content" data-banner-id="6">
+    <a href="{{settings.category_suggestions_and_ideas}}" class="link-container">
+      <img src="{{settings.category_suggestions_and_ideas_image}}" alt="Suggestions & Ideas" class="link-image" />
+    </a>
+  </div>
+  <div class="header-content" data-banner-id="7">
+    <a href="{{settings.category_community_and_events}}" class="link-container">
+      <img src="{{settings.category_community_and_events_image}}" alt="Community & Events" class="link-image" />
+    </a>
+  </div>
+  <div class="header-content" data-banner-id="8">
+    <a href="{{settings.category_general_chat}}" class="link-container">
+      <img src="{{settings.category_general_chat_image}}" alt="General Chat" class="link-image" />
+    </a>
+  </div>
 </header>
