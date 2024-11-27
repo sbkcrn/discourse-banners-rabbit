@@ -1,3 +1,65 @@
-<header id="test-header" style="background-color: purple; height: 100px;">
-  <p style="color: white; text-align: center;">Minimal Test from Component</p>
+<header id="rabbit-header">
+  {{#if settings.category_1_image}}
+    <div class="header-content" data-banner-id="1">
+      <a href="{{settings.category_1}}" class="link-container">
+        <img src="{{settings.category_1_image}}" alt="From the Team" class="link-image" />
+      </a>
+    </div>
+  {{/if}}
+
+  {{#if settings.category_2_image}}
+    <div class="header-content" data-banner-id="2">
+      <a href="{{settings.category_2}}" class="link-container">
+        <img src="{{settings.category_2_image}}" alt="All Things Rabbit" class="link-image" />
+      </a>
+    </div>
+  {{/if}}
+
+  {{#if settings.category_3_image}}
+    <div class="header-content" data-banner-id="3">
+      <a href="{{settings.category_3}}" class="link-container">
+        <img src="{{settings.category_3_image}}" alt="LAM, Teach Mode & Agents" class="link-image" />
+      </a>
+    </div>
+  {{/if}}
+
+  {{#if settings.category_4_image}}
+    <div class="header-content" data-banner-id="4">
+      <a href="{{settings.category_4}}" class="link-container">
+        <img src="{{settings.category_4_image}}" alt="The World of AI" class="link-image" />
+      </a>
+    </div>
+  {{/if}}
+
+  {{#if settings.category_5_image}}
+    <div class="header-content" data-banner-id="5">
+      <a href="{{settings.category_5}}" class="link-container">
+        <img src="{{settings.category_5_image}}" alt="Issues & Bugs" class="link-image" />
+      </a>
+    </div>
+  {{/if}}
+
+  {{#if settings.category_6_image}}
+    <div class="header-content" data-banner-id="6">
+      <a href="{{settings.category_6}}" class="link-container">
+        <img src="{{settings.category_6_image}}" alt="Suggestions & Ideas" class="link-image" />
+      </a>
+    </div>
+  {{/if}}
+
+  {{#if settings.category_7_image}}
+    <div class="header-content" data-banner-id="7">
+      <a href="{{settings.category_7}}" class="link-container">
+        <img src="{{settings.category_7_image}}" alt="Community & Events" class="link-image" />
+      </a>
+    </div>
+  {{/if}}
+
+  {{#if settings.category_8_image}}
+    <div class="header-content" data-banner-id="8">
+      <a href="{{settings.category_8}}" class="link-container">
+        <img src="{{settings.category_8_image}}" alt="General Chat" class="link-image" />
+      </a>
+    </div>
+  {{/if}}
 </header>
