@@ -1,19 +1,79 @@
-category_urls:
-  type: list
-  default: |
-    [
-      {"name": "From the Team", "url": "https://community.rabbit.tech/c/from-the-team/11"},
-      {"name": "All Things Rabbit", "url": "https://community.rabbit.tech/c/all-things-rabbit/5"},
-      {"name": "LAM, Teach Mode & Agents", "url": "https://community.rabbit.tech/c/developer-discussion/14"},
-      {"name": "The World of AI", "url": "https://community.rabbit.tech/c/all-things-ai/6"},
-      {"name": "Issues & Bugs", "url": "https://community.rabbit.tech/c/help-and-bug-reports/7"},
-      {"name": "Suggestions & Ideas", "url": "https://community.rabbit.tech/c/suggestions-ideas/10"},
-      {"name": "Community & Events", "url": "https://community.rabbit.tech/c/community-events/12"},
-      {"name": "General Chat", "url": "https://community.rabbit.tech/c/general/4"}
-    ]
-  description: "List of category URLs and names."
+category_from_the_team_url:
+  type: text
+  default: "https://community.rabbit.tech/c/from-the-team/11"
+  description: "URL for the 'From the Team' category."
 
-category_images:
+category_from_the_team_image:
   type: upload
-  list: true
-  description: "Upload banner images for each category in order."
+  default: ""
+  description: "Image for the 'From the Team' banner."
+
+category_all_things_rabbit_url:
+  type: text
+  default: "https://community.rabbit.tech/c/all-things-rabbit/5"
+  description: "URL for the 'All Things Rabbit' category."
+
+category_all_things_rabbit_image:
+  type: upload
+  default: ""
+  description: "Image for the 'All Things Rabbit' banner."
+
+category_lam_teach_mode_agents_url:
+  type: text
+  default: "https://community.rabbit.tech/c/developer-discussion/14"
+  description: "URL for the 'LAM, Teach Mode & Agents' category."
+
+category_lam_teach_mode_agents_image:
+  type: upload
+  default: ""
+  description: "Image for the 'LAM, Teach Mode & Agents' banner."
+
+category_world_of_ai_url:
+  type: text
+  default: "https://community.rabbit.tech/c/all-things-ai/6"
+  description: "URL for the 'The World of AI' category."
+
+category_world_of_ai_image:
+  type: upload
+  default: ""
+  description: "Image for the 'The World of AI' banner."
+
+category_issues_and_bugs_url:
+  type: text
+  default: "https://community.rabbit.tech/c/help-and-bug-reports/7"
+  description: "URL for the 'Issues & Bugs' category."
+
+category_issues_and_bugs_image:
+  type: upload
+  default: ""
+  description: "Image for the 'Issues & Bugs' banner."
+
+category_suggestions_and_ideas_url:
+  type: text
+  default: "https://community.rabbit.tech/c/suggestions-ideas/10"
+  description: "URL for the 'Suggestions & Ideas' category."
+
+category_suggestions_and_ideas_image:
+  type: upload
+  default: ""
+  description: "Image for the 'Suggestions & Ideas' banner."
+
+category_community_and_events_url:
+  type: text
+  default: "https://community.rabbit.tech/c/community-events/12"
+  description: "URL for the 'Community & Events' category."
+
+category_community_and_events_image:
+  type: upload
+  default: ""
+  description: "Image for the 'Community & Events' banner."
+
+category_general_chat_url:
+  type: text
+  default: "https://community.rabbit.tech/c/general/4"
+  description: "URL for the 'General Chat' category."
+
+category_general_chat_image:
+  type: upload
+  default: ""
+  description: "Image for the 'General Chat' banner."
