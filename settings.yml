@@ -1,19 +1,51 @@
-category_urls:
-  type: list
-  default: |
-    [
-      {"name": "From the Team", "url": "https://community.rabbit.tech/c/from-the-team/11"},
-      {"name": "All Things Rabbit", "url": "https://community.rabbit.tech/c/all-things-rabbit/5"},
-      {"name": "LAM, Teach Mode & Agents", "url": "https://community.rabbit.tech/c/developer-discussion/14"},
-      {"name": "The World of AI", "url": "https://community.rabbit.tech/c/all-things-ai/6"},
-      {"name": "Issues & Bugs", "url": "https://community.rabbit.tech/c/help-and-bug-reports/7"},
-      {"name": "Suggestions & Ideas", "url": "https://community.rabbit.tech/c/suggestions-ideas/10"},
-      {"name": "Community & Events", "url": "https://community.rabbit.tech/c/community-events/12"},
-      {"name": "General Chat", "url": "https://community.rabbit.tech/c/general/4"}
-    ]
-  description: "A JSON string of categories and their URLs."
+category_1:
+  type: enum
+  default: "https://community.rabbit.tech/c/from-the-team/11"
+  choices:
+    - name: "From the Team"
+      value: "https://community.rabbit.tech/c/from-the-team/11"
+    - name: "All Things Rabbit"
+      value: "https://community.rabbit.tech/c/all-things-rabbit/5"
+    - name: "LAM, Teach Mode & Agents"
+      value: "https://community.rabbit.tech/c/developer-discussion/14"
+    - name: "The World of AI"
+      value: "https://community.rabbit.tech/c/all-things-ai/6"
+    - name: "Issues & Bugs"
+      value: "https://community.rabbit.tech/c/help-and-bug-reports/7"
+    - name: "Suggestions & Ideas"
+      value: "https://community.rabbit.tech/c/suggestions-ideas/10"
+    - name: "Community & Events"
+      value: "https://community.rabbit.tech/c/community-events/12"
+    - name: "General Chat"
+      value: "https://community.rabbit.tech/c/general/4"
+  description: "Select the URL for the first banner."
 
-category_images:
+category_1_image:
   type: upload
-  list: true
-  description: "Upload banner images for each category in the order matching the URLs."
+  description: "Upload the image for the first banner."
+
+category_2:
+  type: enum
+  default: "https://community.rabbit.tech/c/all-things-rabbit/5"
+  choices:
+    - name: "From the Team"
+      value: "https://community.rabbit.tech/c/from-the-team/11"
+    - name: "All Things Rabbit"
+      value: "https://community.rabbit.tech/c/all-things-rabbit/5"
+    - name: "LAM, Teach Mode & Agents"
+      value: "https://community.rabbit.tech/c/developer-discussion/14"
+    - name: "The World of AI"
+      value: "https://community.rabbit.tech/c/all-things-ai/6"
+    - name: "Issues & Bugs"
+      value: "https://community.rabbit.tech/c/help-and-bug-reports/7"
+    - name: "Suggestions & Ideas"
+      value: "https://community.rabbit.tech/c/suggestions-ideas/10"
+    - name: "Community & Events"
+      value: "https://community.rabbit.tech/c/community-events/12"
+    - name: "General Chat"
+      value: "https://community.rabbit.tech/c/general/4"
+  description: "Select the URL for the second banner."
+
+category_2_image:
+  type: upload
+  description: "Upload the image for the second banner."
