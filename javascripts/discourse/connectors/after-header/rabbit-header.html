@@ -1,9 +1,13 @@
 <header id="rabbit-header">
-  {{#each (parse-json settings.category_urls)}}
-    <div class="header-content" data-banner-id="{{@index}}">
-      <a href="{{url}}" class="link-container">
-        <img src="{{settings.category_images[@index]}}" alt="{{name}}" class="link-image" />
-      </a>
-    </div>
-  {{/each}}
+  <div class="header-content" data-banner-id="1">
+    <a href="{{settings.category_1}}" class="link-container">
+      <img src="{{settings.category_1_image}}" alt="Category 1" class="link-image" />
+    </a>
+  </div>
+  <div class="header-content" data-banner-id="2">
+    <a href="{{settings.category_2}}" class="link-container">
+      <img src="{{settings.category_2_image}}" alt="Category 2" class="link-image" />
+    </a>
+  </div>
+  <!-- Add more banners as needed -->
 </header>
