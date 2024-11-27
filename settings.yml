@@ -51,3 +51,165 @@ category_2_image:
   type: upload
   default: "https://via.placeholder.com/1200x400"
   description: "Upload the image for the second banner. Placeholder used until upload."
+
+category_3:
+  type: enum
+  default: "https://community.rabbit.tech/c/developer-discussion/14"
+  choices:
+    - name: "From the Team"
+      value: "https://community.rabbit.tech/c/from-the-team/11"
+    - name: "All Things Rabbit"
+      value: "https://community.rabbit.tech/c/all-things-rabbit/5"
+    - name: "LAM, Teach Mode & Agents"
+      value: "https://community.rabbit.tech/c/developer-discussion/14"
+    - name: "The World of AI"
+      value: "https://community.rabbit.tech/c/all-things-ai/6"
+    - name: "Issues & Bugs"
+      value: "https://community.rabbit.tech/c/help-and-bug-reports/7"
+    - name: "Suggestions & Ideas"
+      value: "https://community.rabbit.tech/c/suggestions-ideas/10"
+    - name: "Community & Events"
+      value: "https://community.rabbit.tech/c/community-events/12"
+    - name: "General Chat"
+      value: "https://community.rabbit.tech/c/general/4"
+  description: "Select the URL for the third banner."
+
+category_3_image:
+  type: upload
+  default: "https://via.placeholder.com/1200x400"
+  description: "Upload the image for the third banner. Placeholder used until upload."
+
+category_4:
+  type: enum
+  default: "https://community.rabbit.tech/c/all-things-ai/6"
+  choices:
+    - name: "From the Team"
+      value: "https://community.rabbit.tech/c/from-the-team/11"
+    - name: "All Things Rabbit"
+      value: "https://community.rabbit.tech/c/all-things-rabbit/5"
+    - name: "LAM, Teach Mode & Agents"
+      value: "https://community.rabbit.tech/c/developer-discussion/14"
+    - name: "The World of AI"
+      value: "https://community.rabbit.tech/c/all-things-ai/6"
+    - name: "Issues & Bugs"
+      value: "https://community.rabbit.tech/c/help-and-bug-reports/7"
+    - name: "Suggestions & Ideas"
+      value: "https://community.rabbit.tech/c/suggestions-ideas/10"
+    - name: "Community & Events"
+      value: "https://community.rabbit.tech/c/community-events/12"
+    - name: "General Chat"
+      value: "https://community.rabbit.tech/c/general/4"
+  description: "Select the URL for the fourth banner."
+
+category_4_image:
+  type: upload
+  default: "https://via.placeholder.com/1200x400"
+  description: "Upload the image for the fourth banner. Placeholder used until upload."
+
+category_5:
+  type: enum
+  default: "https://community.rabbit.tech/c/help-and-bug-reports/7"
+  choices:
+    - name: "From the Team"
+      value: "https://community.rabbit.tech/c/from-the-team/11"
+    - name: "All Things Rabbit"
+      value: "https://community.rabbit.tech/c/all-things-rabbit/5"
+    - name: "LAM, Teach Mode & Agents"
+      value: "https://community.rabbit.tech/c/developer-discussion/14"
+    - name: "The World of AI"
+      value: "https://community.rabbit.tech/c/all-things-ai/6"
+    - name: "Issues & Bugs"
+      value: "https://community.rabbit.tech/c/help-and-bug-reports/7"
+    - name: "Suggestions & Ideas"
+      value: "https://community.rabbit.tech/c/suggestions-ideas/10"
+    - name: "Community & Events"
+      value: "https://community.rabbit.tech/c/community-events/12"
+    - name: "General Chat"
+      value: "https://community.rabbit.tech/c/general/4"
+  description: "Select the URL for the fifth banner."
+
+category_5_image:
+  type: upload
+  default: "https://via.placeholder.com/1200x400"
+  description: "Upload the image for the fifth banner. Placeholder used until upload."
+
+category_6:
+  type: enum
+  default: "https://community.rabbit.tech/c/suggestions-ideas/10"
+  choices:
+    - name: "From the Team"
+      value: "https://community.rabbit.tech/c/from-the-team/11"
+    - name: "All Things Rabbit"
+      value: "https://community.rabbit.tech/c/all-things-rabbit/5"
+    - name: "LAM, Teach Mode & Agents"
+      value: "https://community.rabbit.tech/c/developer-discussion/14"
+    - name: "The World of AI"
+      value: "https://community.rabbit.tech/c/all-things-ai/6"
+    - name: "Issues & Bugs"
+      value: "https://community.rabbit.tech/c/help-and-bug-reports/7"
+    - name: "Suggestions & Ideas"
+      value: "https://community.rabbit.tech/c/suggestions-ideas/10"
+    - name: "Community & Events"
+      value: "https://community.rabbit.tech/c/community-events/12"
+    - name: "General Chat"
+      value: "https://community.rabbit.tech/c/general/4"
+  description: "Select the URL for the sixth banner."
+
+category_6_image:
+  type: upload
+  default: "https://via.placeholder.com/1200x400"
+  description: "Upload the image for the sixth banner. Placeholder used until upload."
+
+category_7:
+  type: enum
+  default: "https://community.rabbit.tech/c/community-events/12"
+  choices:
+    - name: "From the Team"
+      value: "https://community.rabbit.tech/c/from-the-team/11"
+    - name: "All Things Rabbit"
+      value: "https://community.rabbit.tech/c/all-things-rabbit/5"
+    - name: "LAM, Teach Mode & Agents"
+      value: "https://community.rabbit.tech/c/developer-discussion/14"
+    - name: "The World of AI"
+      value: "https://community.rabbit.tech/c/all-things-ai/6"
+    - name: "Issues & Bugs"
+      value: "https://community.rabbit.tech/c/help-and-bug-reports/7"
+    - name: "Suggestions & Ideas"
+      value: "https://community.rabbit.tech/c/suggestions-ideas/10"
+    - name: "Community & Events"
+      value: "https://community.rabbit.tech/c/community-events/12"
+    - name: "General Chat"
+      value: "https://community.rabbit.tech/c/general/4"
+  description: "Select the URL for the seventh banner."
+
+category_7_image:
+  type: upload
+  default: "https://via.placeholder.com/1200x400"
+  description: "Upload the image for the seventh banner. Placeholder used until upload."
+
+category_8:
+  type: enum
+  default: "https://community.rabbit.tech/c/general/4"
+  choices:
+    - name: "From the Team"
+      value: "https://community.rabbit.tech/c/from-the-team/11"
+    - name: "All Things Rabbit"
+      value: "https://community.rabbit.tech/c/all-things-rabbit/5"
+    - name: "LAM, Teach Mode & Agents"
+      value: "https://community.rabbit.tech/c/developer-discussion/14"
+    - name: "The World of AI"
+      value: "https://community.rabbit.tech/c/all-things-ai/6"
+    - name: "Issues & Bugs"
+      value: "https://community.rabbit.tech/c/help-and-bug-reports/7"
+    - name: "Suggestions & Ideas"
+      value: "https://community.rabbit.tech/c/suggestions-ideas/10"
+    - name: "Community & Events"
+      value: "https://community.rabbit.tech/c/community-events/12"
+    - name: "General Chat"
+      value: "https://community.rabbit.tech/c/general/4"
+  description: "Select the URL for the eighth banner."
+
+category_8_image:
+  type: upload
+  default: "https://via.placeholder.com/1200x400"
+  description: "Upload the image for the eighth banner. Placeholder used until upload."
