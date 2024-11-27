@@ -1,3 +1,17 @@
-<header id="rabbit-header" style="background-color: blue; height: 100px; margin-top: 10px;">
-  <p style="color: white; text-align: center;">Test Header: Correct Placement</p>
+<header id="rabbit-header">
+  {{#if settings.category_1_image}}
+    <div class="header-content active" data-banner-id="1">
+      <a href="{{settings.category_1}}" class="link-container">
+        <img src="{{settings.category_1_image}}" alt="From the Team" class="link-image" />
+      </a>
+    </div>
+  {{/if}}
+  {{#if settings.category_2_image}}
+    <div class="header-content" data-banner-id="2">
+      <a href="{{settings.category_2}}" class="link-container">
+        <img src="{{settings.category_2_image}}" alt="All Things Rabbit" class="link-image" />
+      </a>
+    </div>
+  {{/if}}
+  <!-- Add more banners here as needed -->
 </header>
