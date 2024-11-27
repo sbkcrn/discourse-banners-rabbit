@@ -22,7 +22,8 @@ category_1:
 
 category_1_image:
   type: upload
-  description: "Upload the image for the first banner."
+  default: "https://via.placeholder.com/1200x400"
+  description: "Upload the image for the first banner. Placeholder used until upload."
 
 category_2:
   type: enum
@@ -48,4 +49,5 @@ category_2:
 
 category_2_image:
   type: upload
-  description: "Upload the image for the second banner."
+  default: "https://via.placeholder.com/1200x400"
+  description: "Upload the image for the second banner. Placeholder used until upload."
